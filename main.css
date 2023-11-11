@@ -2,7 +2,7 @@ table
         {
           height: 25px;
           width: 100%;
-          background-color:rgb(0, 57, 22);
+          background-color:rgb(253, 213, 237);
           color:white;
           margin:0 0 0 0 ;
           padding:0 0 0 0 ;
@@ -21,7 +21,7 @@ table
         }
         td
         {
-           width:100%  ;
+           width:16%  ;
         }
         body
         {
@@ -29,12 +29,12 @@ table
         }
         a.c1
         {
-          color:red; 
+          color:lightblue 
           text-decoration: none;
         }
         a.c1:visited
         {
-          color:blue; 
+          color:lightsalmon   
           text-decoration: none;
         } 
         a.c2
@@ -47,25 +47,35 @@ table
           color:red; 
           text-decoration: none ;
         }
+        a.info
+        {
+          text-align: center;
+          padding: 0 20px 10px 20px;
+          color : rgb(99, 0, 0)
+        }
         h2.c3
         {
-             color:yellow;
+          color:yellow;
         }
         h2.c4
         {
-             color:rgb(115,81,132);
-       }
+          color:rgb(115,81,132);
+        }
+        h2.red
+        {
+          font-size: 20px;
+        }
         button
- 		{
- 	    z-index: 0;
- 		background-color:green;
-        width:200px;
-        height:35px;
-        color:green;
+ 		   {
+ 	      z-index: 0;
+ 		    background-color:red;
+        width:261px;
+        height:60px;
+        color:red;
         border-radius:40px;
         border:10px;
-        border-color: green;
+        border-color:red;
         position: absolute;
-        left:700px;
-        right:500px;
+        left: 780px;
+        top:500px;
         }
