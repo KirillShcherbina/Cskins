@@ -79,3 +79,12 @@ table
         left: 780px;
         top:500px;
         }
+        footer
+        {
+         margin: 30px 10% 0 10%;
+
+        }
+        hr
+        {
+          color: white;
+        }
