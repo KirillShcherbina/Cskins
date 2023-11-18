@@ -29,13 +29,13 @@ table
         }
         a.c1
         {
-          color:lightblue 
-          text-decoration: none;
+          color:rgb(74, 230, 13);
+          text-decoration:none;
         }
         a.c1:visited
         {
-          color:lightsalmon   
-          text-decoration: none;
+          color:lightsalmon;   
+          text-decoration:none;
         } 
         a.c2
         {
