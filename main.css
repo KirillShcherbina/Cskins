@@ -29,12 +29,12 @@ table
         }
         a.c1
         {
-          color:rgb(74, 230, 13);
+          color:rgb(255, 255, 255);
           text-decoration:none;
         }
         a.c1:visited
         {
-          color:lightsalmon;   
+          color:rgb(241, 68, 0);   
           text-decoration:none;
         } 
         a.c2
