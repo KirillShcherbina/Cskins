@@ -82,9 +82,13 @@ table
         footer
         {
          margin: 30px 10% 0 10%;
-
+         color:white
         }
         hr
+        {
+          color: white;
+        }
+        p
         {
           color: white;
         }
