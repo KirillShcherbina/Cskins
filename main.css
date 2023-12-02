@@ -74,4 +74,5 @@
           border: 3px solid green;
           text-align: center;
           box-sizing: border-box;
+          display:flex;
         }
