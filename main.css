@@ -21,7 +21,7 @@
         }
         td
         {
-           width:100%;  
+           width:14%;  
         }
         body
         {
@@ -76,4 +76,6 @@
           margin-left:calc(30vw);
           margin-right: calc(30vw);
           background-color: green;
+          border-radius: 30px ;
+          
         }
