@@ -73,6 +73,7 @@
         {
           border: 3px solid green;
           text-align: center;
-          box-sizing: border-box;
-          display:flex;
+          margin-left:calc(30vw);
+          margin-right: calc(30vw);
+
         }
