@@ -53,7 +53,7 @@
         }
         h2.c4
         {
-             color:rgb(115,81,132);
+             color:rgb(170, 0, 255);
        }
         button
  		{
@@ -95,18 +95,45 @@
           min-height: 500px;
           display:grid;
           grid-template-areas: 
-          'one one one three three'
-          'one one one four four '
-          'two two two four four'
-          'two two two five five';
+          'one two '
+          'one four '
+          'one four'
+          'three four';
+          grid-gap: 5px;
+        }
+        #grid-skins
+        {
+          min-height: 500px;
+          display:grid;
+          grid-template-areas: 
+          'one one one two '
+          'one two two two  '
+          'one one four four'
+          'three three three four';
           grid-gap: 5px;
         }
         #grid1 {grid-area:one;}
         #grid2 {grid-area:two;}
         #grid3 {grid-area:three;}
         #grid4 {grid-area:four;}
-        #grid5 {grid-area:five;}
+        #grid5 {grid-area: five;}
         input:focus
         {
           background-color: greenyellow;
         }
+        input:checked + span 
+        {
+          background-color: rgb(116, 255, 98);
+        }
+        @keyframes poster
+        {
+           0%{margin-left: -180px; margin-right: 0px;}
+          50%{margin-left: 0px; margin-right: -180px;opacity: 0.5;}
+          100%{margin-left: -180px; margin-right: 0px;}
+        }
+        #poster
+        {
+          animation: poster 5s ease-in-out infinite ;
+          background-color: grey ;
+        }
+        
