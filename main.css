@@ -58,19 +58,26 @@
        }
         button
  		{
- 	    z-index: 0;
- 		background-color:green;
+ 	    z-index: 3  ;
+ 		background-color:rgb(15, 38, 15);
         width:200px;
         height:35px;
-        color:green;
+        color:rgb(16, 65, 16);
         border-radius:40px;
         border:10px;
-        border-color: green;
+        border-color: rgb(44, 61, 44);
         position: absolute;
-        left:700px;
-        right:500px;
-        }
+        left:940px;
+        top:515px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     }
+     button:hover
+     {
+       background-color: rgb(208, 142, 255);
+       transform: rotate(90deg);
+     }
         form
+      
         {
           border: 3px solid green;
           text-align: center;
@@ -126,7 +133,7 @@
         {
           background-color: rgb(116, 255, 98);
         }
-        @keyframes poster
+        /*@keyframes poster
         {
            0%{margin-left: -180px; margin-right: 0px;}
           50%{margin-left: 0px; margin-right: -180px;opacity: 0.5;}
@@ -136,5 +143,15 @@
         {
           animation: poster 5s ease-in-out infinite ;
           background-color: grey ;
+        }*/
+        #poster:hover
+        {
+          
         }
-        
+        .cut1
+        {
+          pozition:absolute
+          z-index:2
+          top
+          left
+        }
